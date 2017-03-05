@@ -1,1 +1,32 @@
-.&Ntilde{text:ñ:}
+body{text-align: justify;}
+p.titulo{color: yellow;
+    margin: 10px;
+    text-align: center;
+font-size: 25pt;
+    font-family: cursive;}
+
+a.enlace {color:blue;
+    text-decoration: none;
+    font-size: 18pt;
+    font-family: cursive;}
+
+.panel{
+    position: fixed;
+    right: 0;
+    top:auto;
+    z-index: 2000;
+color: blue;
+background: black;
+    border: blue; border-style: double;
+    border-right: none;
+    width: 150px; height:90%;
+text-decoration: none;}
+
+button.dis{
+    background-color: black;
+    border-bottom-width: medium;
+    border-color: blue;
+    position: fixed;
+    right: 0;
+    width: 80; height: 30px;
+}
