@@ -1,8 +1,11 @@
-body{text-align: justify;}
+body.C{background-image: url('PAGINA/imagenes/principal.jpg');}
+
+body.b{background-image: url('PAGINA/imagenes/fondo.jpg');}
+
 p.titulo{color: yellow;
     margin: 10px;
     text-align: center;
-font-size: 25pt;
+    font-size: 25pt;
     font-family: cursive;}
 
 a.enlace {color:blue;
@@ -15,18 +18,25 @@ a.enlace {color:blue;
     right: 0;
     top:auto;
     z-index: 2000;
-color: blue;
-background: black;
-    border: blue; border-style: double;
-    border-right: none;
-    width: 150px; height:90%;
-text-decoration: none;}
+    color: blue;
+    background: none;
+    text-decoration: none;}
 
 button.dis{
-    background-color: black;
-    border-bottom-width: medium;
+    background-color: none;
+    border-width:thick;
     border-color: blue;
     position: fixed;
     right: 0;
     width: 80; height: 30px;
+    cursor: hand;
 }
+button.dis:hover{background-color: gray;
+    border-width:thick;
+    border-color: blue;
+    position: fixed;
+    right: 0;
+    width: 85; height: 35px;
+    cursor: hand;}
+
+img.im{}
