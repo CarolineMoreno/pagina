@@ -106,5 +106,6 @@ p.tex{z-index: 1; margin-top: -325;z-index: -1;
    text-indent: 5%;}
 
 div.cuadro{z-index: auto; height: 325;width: 170;
-    margin-top: -160; padding: 0}
-height: 200; width: 300;}
+    margin-top: -160; padding-top: 10;padding-bottom: 10;}
+
+img.borde{border: 5px groove darkmagenta;}
