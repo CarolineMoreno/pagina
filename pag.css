@@ -42,8 +42,9 @@ a.familia{color: bisque; text-decoration: none;
     font-size: 25pt; padding-top: 100;
     font-family: cursive;}
 
-p.parrafoPrin{
-    border:2px; width: 1000px;
+p.parrafoPrin{background-image: url(IMAGENES/ImgFondo/principal.jpg);
+    background-repeat: no-repeat;
+    border:2px; width: 1000px;padding-left:70;
     text-align: center;height: 120;
     background-color:darkmagenta;
     color: bisque; font-style:italic;
