@@ -1,9 +1,11 @@
 body.b{background-image: url('IMAGENES/ImgFondo/fondo.jpg');
-color: black; font-size: 18;}
+color: black; font-size: 18;
+font-family: monospace;font-style:normal;
+}
 
 p.titulo{color:bisque;
     top: 0; left: 0; right: 0;
-    position: fixed;
+    position: fixed; font-family: monospace;
     border: 3px; background-color:darkmagenta ;
     margin: 10px;
     text-align: center;
@@ -13,42 +15,42 @@ p.titulo{color:bisque;
 
 a.bebe{color:bisque; text-decoration: none;
     background-image: url(IMAGENES/ImgFondo/FondoBebe.jpg);
-    height: 400px; width: 300; text-shadow: 0 0 0.4em darkmagenta;
+    height: 400px; width: 300; text-shadow: 0 0 0.4em darkmagenta; font-family: monospace;
     position: fixed; text-align: center;
     margin-left: 0px;
     font-size: 25pt; padding-top: 100;
     font-family: cursive;}
 a.ninez{color: bisque; text-decoration: none;
     background-image: url(IMAGENES/ImgFondo/FondoNinez.jpg);
-    height: 450px; width: 300;text-shadow: 0 0 0.9em darkmagenta;
+    height: 450px; width: 300;text-shadow: 0 0 0.9em darkmagenta;font-family: monospace;
     position: fixed;text-align: center;
     margin-left: 330px;
     font-size: 24pt; padding-top: 50;
     font-family: cursive;}
 a.joven{color: bisque; text-decoration: none;
     background-image: url(IMAGENES/ImgFondo/FondoJoven.jpg);
-    height: 400px; width: 300;text-shadow: 0 0 0.4em darkmagenta;
+    height: 400px; width: 300;text-shadow: 0 0 0.4em darkmagenta;font-family: monospace;
     position: fixed;text-align: center;
     margin-left: 660px;
     font-size: 25pt; padding-top: 100;
     font-family: cursive;}
 a.familia{color: bisque; text-decoration: none;
     background-image: url(IMAGENES/ImgFondo/FondoFam.jpg);
-    height: 400px; width: 300;text-shadow: 0 0 0.4em darkmagenta;
+    height: 400px; width: 300;text-shadow: 0 0 0.4em darkmagenta;font-family: monospace;
     position: fixed;text-align: center;
     margin-left: 990px;
     font-size: 25pt; padding-top: 100;
     font-family: cursive;}
 
 p.parrafoPrin{
-    border:2px; width: 1100px;
-    text-align: center; top: 0;
+    border:2px; width: 1000px;
+    text-align: center;height: 120;
     background-color:darkmagenta;
     color: bisque; font-style:italic;
-    font-size: 30;font-weight: bold;
-     }
+    font-size: 25; font-weight: bold;}
 
-a.enlace {color:blue;
+
+a.enlace {
     text-decoration: none;
     font-size: 18pt;
     font-family: cursive;}
@@ -97,11 +99,11 @@ border.sup{background-color: darkmagenta;
    height: 8%;
    position: fixed;}
 
-p.tex{z-index: 1; margin-top: -290;
-   height: 300px; width:1000;
-   padding: 10px; 
-   }
+p.tex{z-index: 1; margin-top: -325;z-index: -1;
+   height: 300px; width:1000; margin-left: 170;
+   padding: 10px; background-color:antiquewhite;
+   text-indent: 5%;}
 
-div.cuadro{z-index: auto; height: 300;width: 500;
-    margin-top: -160; padding: 0; margin-left: 1000;}
+div.cuadro{z-index: auto; height: 325;width: 170;
+    margin-top: -160; padding: 0}
 height: 200; width: 300;}
