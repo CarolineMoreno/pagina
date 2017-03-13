@@ -9,7 +9,7 @@ margin: 0 auto;
 p.titulo{color:bisque;
     top: 0%; left: 0%; right: 0%;text-shadow: 0 0 0.4em bisque;
     font-family: monospace;
-    border: 3px; background-color:darkmagenta;
+    border: 3px; background-color:dimgrey;
     margin: 10px; box-sizing: border-box;
     text-align: center;
     font-size: 25pt;
