@@ -6,7 +6,7 @@ font-family: monospace;font-style:normal;
 margin: 0 auto;
 }
 
-p.titulo{color:black;
+p.titulo{color:bisque;
     top: 0%; left: 0%; right: 0%;text-shadow: 0 0 0.4em bisque;
     position: fixed; font-family: monospace;
     border: 3px; background-color:darkmagenta;
@@ -102,8 +102,7 @@ border.sup{background-color: darkmagenta;
    position: fixed;}
 
 p.tex{margin-top: -360;z-index: -1;
-   height: auto; width:80%; margin-left: 15%;box-sizing: border-box; 
-   padding: 30px; background-color:antiquewhite;
+   height: auto; width:78%; margin-left: 15%;box-sizing: border-box; margin-right:8%; padding: 30px; background-color:antiquewhite;
    text-indent: 5%;}
 
 div.cuadro{z-index: auto; height: auto;;width: 15%; padding-top: 10px; padding-bottom: 10px;box-sizing: border-box;
@@ -122,10 +121,36 @@ img.icono:hover{
 img.galeria{
     border: 5px groove darkmagenta; float:inherit; margin-top: 1%;
     margin-left: .5%; margin-right: .5%; }
-p.texGaleria{margin-top: -580;z-index: -1; margin-right: 15%;
-   height: auto; width:70%; margin-left: 15%;box-sizing: border-box; text-align: center; font-size: 25;
-   padding: 35px; background-color:antiquewhite;}
+p.texGaleria{margin-top: -580;z-index: -1;
+    margin-right: 15%; text-align: center;
+   height: auto; width:70%; margin-left: 15%;box-sizing: border-box; font-size: 25;
+   padding: 3%; background-color:antiquewhite;}
+p.texMetas{margin-top: -580;z-index: -1;
+    margin-right: 15%; text-indent: 5%;
+   height: auto; width:70%; margin-left: 15%;box-sizing: border-box; font-size: 25;
+   padding: 3%; background-color:antiquewhite;}
 
+
+img.iconoPrin1{ 
+    position: fixed;
+    right: 14%; z-index: 2; top:13%;
+    width: 4%; height: 7%;
+    cursor: hand;}
+img.iconoPrin2{ 
+    position: fixed;
+    right: 8%; z-index: 2; top:13%;
+    width: 4%; height: 7%;
+    cursor: hand;}
+img.iconoPrin3{ 
+    position: fixed;
+    right: 2%; z-index: 2; top:13%;
+    width: 4%; height: 7%;
+    cursor: hand;}
+img.iconoPrin1:hover, img.iconoPrin2:hover, img.iconoPrin3:hover{
+    width: 5%; height: 8%;}
+
+#copyright {font-size:0.7em; right: 7%; color:#000000; bottom:0%; position: fixed;
+background-color:bisque}
 
 
 @media screen and (max-width:1100px){
@@ -136,6 +161,7 @@ p.texGaleria{margin-top: -580;z-index: -1; margin-right: 15%;
         width: 90%;
         margin-left: 5%;
         margin-right: 10%;
+        margin-top: -510
     }
     a.bebe{
         font-size: 25;
@@ -157,6 +183,10 @@ p.texGaleria{margin-top: -580;z-index: -1; margin-right: 15%;
         font-size: 20;
         padding-top: 20;
     }
+    button.dis, button.apl {
+        font-size: 11;
+        padding: 0%;
+    }
 }
 @media screen and (max-width:800px){
     p.parrafoPrin{background-image: none;
@@ -168,12 +198,22 @@ p.texGaleria{margin-top: -580;z-index: -1; margin-right: 15%;
     }
 }
 @media screen and (max-width:660px){
+      p.tex{
+        margin-top: -450;
+    }
     p.parrafoPrin{
     font-size:16;
         
     }
     button.disEspecial{
         font-size: 9;
+    }
+    button.dis, button.apl {
+        font-size: 7;
+        padding: 0%;
+    }
+    img.icono{
+        width: 4%; height: 6%;
     }
     
 }
@@ -225,4 +265,5 @@ p.texGaleria{margin-top: -580;z-index: -1; margin-right: 15%;
          height: 75%;
     }
 }
+
 
